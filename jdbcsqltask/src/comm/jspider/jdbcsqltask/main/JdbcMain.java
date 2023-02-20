@@ -22,14 +22,14 @@ public class JdbcMain {
 	
 	public static  void operations() {
 		System.out.println("\n _______MENU________\n"
-	    		  +"[1]6 Create Table    \n"
-	    		  +"[2]6 Insert Records  \n"
-	    		  +"[3]6 Update Records  \n"
-	    		  +"[4]6 Delete Records  \n"
-	    		  +"[5]6 Display Records \n"
-	    		  +"[6]6 Display All Tables \n"
-	    		  +"[7]6 Drop Table \n"
-	    		  +"[8]6 Exit ");
+	    		  +"[1] Create Table    \n"
+	    		  +"[2] Insert Records  \n"
+	    		  +"[3] Update Records  \n"
+	    		  +"[4] Delete Records  \n"
+	    		  +"[5] Display Records \n"
+	    		  +"[6] Display All Tables \n"
+	    		  +"[7] Drop Table \n"
+	    		  +"[8] Exit ");
 		System.out.print("\nEnter Your Choice :- ");
 		sc=new Scanner(System.in);
 			try {
