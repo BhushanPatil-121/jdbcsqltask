@@ -250,43 +250,11 @@ public class JdbcSqlOperations {
 					
 					while (resultSet.next()) {
 					for(int j=1;j<=column;j++) {
-							System.out.print( resultSet.getString(j)+" | ");
+							System.out.print(" "+resultSet.getString(j)+" |");
 						}
 						System.out.println();
 					}
 				}
-//				switch (column) {
-//				case 1:
-//					while (resultSet.next()) {
-//						System.out.println("| " + resultSet.getString(1));
-//					}
-//					break;
-//				case 2:
-//					while (resultSet.next()) {
-//						System.out.println("| " + resultSet.getString(1) + " | " + resultSet.getString(2));
-//					}
-//					break;
-//				case 3:
-//
-//					while (resultSet.next()) {
-//						System.out.println("| " + resultSet.getString(1) + " | " + resultSet.getString(2) + " | "
-//								+ resultSet.getString(3));
-//					}
-//					break;
-//				case 4:
-//					while (resultSet.next()) {
-//						System.out.println("| " + resultSet.getString(1) + " | " + resultSet.getString(2) + " | "
-//								+ resultSet.getString(3) + " | " + resultSet.getString(4));
-//					}
-//					break;
-//				case 5:
-//					while (resultSet.next()) {
-//						System.out.println("| " + resultSet.getString(1) + " | " + resultSet.getString(2) + " | "
-//								+ resultSet.getString(3) + " | " + resultSet.getString(4) + " | "
-//								+ resultSet.getString(5));
-//					}
-//					break;
-//				}
 				System.out.println("|----------------------------------|");
 				break;
 			} catch (SQLException e) {
